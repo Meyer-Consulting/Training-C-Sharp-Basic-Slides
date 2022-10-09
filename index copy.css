@@ -1,0 +1,123 @@
+@import "../node_modules/reveal.js/dist/reveal.css";
+@import "../node_modules/reveal.js/dist/theme/black.css";
+@import "../node_modules/reveal.js/plugin/highlight/monokai.css";
+
+.reveal {
+  font-size: 28px;
+}
+
+.reveal blockquote {
+  background-color: rgb(255, 255, 160);
+}
+
+strong {
+  background-color: yellow;
+}
+
+code {
+  background-color: lightgray;
+}
+
+.reveal ul ul {
+  font-size: 20px;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+
+/* Add top margin before list items */
+.reveal ul li {
+  margin-top: 15px;
+}
+
+/* No top margin before list items in nested lists */
+.reveal ul ul li {
+  margin-top: 0;
+}
+
+/* No top margin before first list item */
+.reveal ul li:first-of-type {
+  margin-top: 0;
+}
+
+.reveal code {
+  font-size: smaller;
+}
+
+.reveal img {
+  max-height: 70vh;
+}
+
+.container {
+  display: flex;
+}
+
+.col {
+  flex: 1;
+}
+
+.col img {
+  margin-top: 0;
+}
+
+svg .code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+}
+
+svg .note {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  fill: red;
+}
+
+svg rect.border {
+  fill: white;
+  stroke: black;
+  stroke-width: 1px;
+}
+
+svg rect.highlight {
+  fill: transparent;
+  stroke: red;
+  stroke-width: 1px;
+  stroke-dasharray: 1 1;
+}
+
+svg line {
+  stroke: red;
+  stroke-width: 1px;
+  stroke-dasharray: 1 1;
+}
+
+svg polygon {
+  fill: red;
+}
+
+svg tspan.highlight {
+  font-weight: bold;
+}
+
+svg div {
+  padding-bottom: 10px;
+}
+
+.layout-container {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+}
+
+.two-floating-elements img {
+
+  float: right;
+
+}
+
+.two-floating-elements ul {
+  box-sizing: border-box;
+  float: left;
+  max-width: 50%;
+  list-style-type: none;
+}
