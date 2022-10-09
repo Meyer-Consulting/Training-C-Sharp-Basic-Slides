@@ -1,6 +1,7 @@
 # Typgrundlagen
 
-> Ein Typ definiert die Blaupause für einen Wert.
+
+Ein Typ definiert die Blaupause für einen Wert.
 
 
 ## Der Code 

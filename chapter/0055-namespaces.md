@@ -1,5 +1,6 @@
 # Namensräume
 
+
 Ein **Namensraum** ist eine Domäne, in der Namen von Typen **eindeutig** sein müssen.
 
 

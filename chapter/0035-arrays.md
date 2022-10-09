@@ -1,5 +1,6 @@
 # Arrays
 
+
 Ein Array repräsentiert eine feste Zahl von Elementen eines bestimmten Typs.
 
 Die Elemente in einem Array werden immer in einem zusammenhängenden Speicherabschnitt gespeichert, wodurch man sehr schnell auf sie zugreifen kann.

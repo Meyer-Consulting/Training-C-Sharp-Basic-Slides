@@ -1,7 +1,5 @@
 #  Das Framework & C#
 
-# <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/128/000000/external-framework-computer-programming-flaticons-lineal-color-flat-icons.png"/>
-
 
 Properietäres Framework von Microsoft zur Entwicklung von Windows Anwendungen.
 

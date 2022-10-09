@@ -1,5 +1,6 @@
 # Structs
 
+
 Ein `struct` ähnelt einer Klasse, es gibt aber auch entscheidende Unterschiede:
 
 - Ein `struct` ist ein Werttyp, während eine Klasse ein Referenztyp ist.

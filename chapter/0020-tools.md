@@ -1,7 +1,5 @@
 # Die Werkzeuge
 
-# 🔧 🪚
-
 
 ## Runtime
 

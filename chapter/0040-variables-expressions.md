@@ -1,5 +1,6 @@
 # Variablen und Parameter
 
+
 Eine **Variable** repräsentiert einen Speicherbereich, der einen veränderbaren Wert enthält. 
 
 Eine Variable kann eine **lokale Variable**, ein **Parameter** (value, ref, out oder in), ein **Feld** (Instanz oder statisch) oder ein **Array**-Element sein.

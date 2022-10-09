@@ -1,5 +1,6 @@
 # Klassen
 
+
 Die Klasse ist die am häufigsten verwendete Form eines Referenztyps.
 
 ```csharp

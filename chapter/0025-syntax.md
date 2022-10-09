@@ -1,6 +1,7 @@
 # Die Syntax
 
-> Die Syntax von C# ist von der Syntax von C und C++ inspiriert.
+
+Die Syntax von C# ist von der Syntax von C und C++ inspiriert.
 
 
 ## Der Code 
