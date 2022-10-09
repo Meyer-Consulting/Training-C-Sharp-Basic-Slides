@@ -5,7 +5,7 @@ Ein Array repräsentiert eine feste Zahl von Elementen eines bestimmten Typs.
 Die Elemente in einem Array werden immer in einem zusammenhängenden Speicherabschnitt gespeichert, wodurch man sehr schnell auf sie zugreifen kann.
 
 
-# Erstellen von Arrays
+## Erstellen von Arrays
 
 Ein Array wird durch eckige Klammern nach dem Typ des Elements definiert.
 
@@ -14,6 +14,7 @@ char[] vowels = new char[5];
 
 char[] vowels = new char[] {'a','e','i','o','u'};
 ```
+
 
 Eckige Klammern indexieren das Array auch, wodurch man auf ein bestimmtes Element über die Position zugreifen kann:
 
@@ -28,7 +29,7 @@ Console.WriteLine(vowels[1]); // e
 ```
 
 
-# Array - Methoden
+## Array - Methoden
 
 Alle Arrays erben von der Klasse `System.Array`.
 
@@ -36,13 +37,14 @@ Ein Array hat folgende wichtige Methoden:
 * `Length` - gibt die Anzahl der Elemente im Array zurück
 * `Rank` - gibt die Anzahl der Dimensionen des Arrays zurück
 
+
 **Statische Methoden:**
 * `Copy` - kopiert ein Array in ein anderes Array
 * `Sort` - sortiert ein Array
 * `IndexOf`, `LastIndexOf`, `Find` durchsuchen ein Array
 
 
-# Indizes
+## Indizes
 
 Indizes erlauben es, auf Elemente eines Arrays zuzugreifen. Mit `^1` kann auf das letzte Element zugegriffen werden.
 
@@ -56,7 +58,7 @@ char lastElement = vowels [^1]; // 'u'
 ```
 
 
-# Bereiche
+## Bereiche
 
 Mit Bereichen kann ein Array mit dem Operator `..` in mehrere Teile aufgeteilt werden.
 
@@ -69,9 +71,10 @@ char[] middleOne = vowels [2..3]; // 'i'
 ```
 
 
-# Mehrdimensionale Arrays
+## Mehrdimensionale Arrays
 
 Mehrdimensionale Arrays gibt es in zwei Varianten: **rechteckig** und **ungleichförmig**
+
 
 **Rechteckige Arrays** werden deklariert, indem die einzelnen Dimensionen durch Kommata getrennt werden.
 
@@ -82,6 +85,7 @@ int[,] matrix = new int[,] {
     {0,1,2}, {3,4,5}, {6,7,8}
 };
 ```
+
 
 **Ungleichförmige Arrays** werden mit aufeinanderfolgenden eckigen Klammern deklariert, mit denen jede Dimension repräsentiert wird.
 ```csharp

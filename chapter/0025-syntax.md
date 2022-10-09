@@ -3,7 +3,7 @@
 > Die Syntax von C# ist von der Syntax von C und C++ inspiriert.
 
 
-# Der Code 
+## Der Code 
 
 ```csharp
 using System;
@@ -13,7 +13,7 @@ Console.WriteLine(x);
 ```
 
 
-# Bezeichner und Schlüsselwörter
+## Bezeichner und Schlüsselwörter
 
 **Bezeichner** sind Namen für Klassen, Methoden und Variablen.
 
@@ -24,14 +24,12 @@ Ein **Bezeichner** muss ein ganzes Wort aus Unicode Zeichen sein. Groß- und Kle
 Die **Bezeichner** in unserem Code sind: `System`, `x`, `Console`, `WriteLine`.
 
 
-# Bezeichner und Schlüsselwörter
-
 **Schlüsselwörter** sind Namen, die für den Compiler eine bestimmte Bedeutung haben.
 
 Die **Schlüsselworte** in unserem Code sind `using` und `int`.
 
 
-# Literale, Satzzeichen und Operatoren
+## Literale, Satzzeichen und Operatoren
 
 **Literale** sind einfache Daten, die statisch im Programm verwendet werden. In unserem Code sind das `12` und `30`.
 
@@ -40,15 +38,17 @@ Die **Schlüsselworte** in unserem Code sind `using` und `int`.
 **Operatoren** verwandeln und kombinieren Ausdrücke. In unserem Code sind das `=`, `*`, `.` und `()`.
 
 
-# Kommenatare
+## Kommenatare
 
 C# bietet zwei verschiedene Arten von Quellcodekommentaren:
+
 
 ### Einzelzeilige Kommentare
 
 ```csharp
 int x = 3; // Kommentar zur Zuweisung von 3 an x
 ```
+
 
 ### Mehrzeilige Kommentare
 
@@ -57,7 +57,3 @@ int x = 3; /* Das ist ein Kommentar,
             der zwei Zeilen umspannt. */
 ```
 
-
-# 👨‍🏫 Demo
-
-Wir identifizieren die Bezeichner, Schlüsselwörter, Literale, Satzzeichen und Operatoren in einem Beispiel.

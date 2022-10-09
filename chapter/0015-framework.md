@@ -3,8 +3,6 @@
 # <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/128/000000/external-framework-computer-programming-flaticons-lineal-color-flat-icons.png"/>
 
 
-# .NET Framework
-
 Properietäres Framework von Microsoft zur Entwicklung von Windows Anwendungen.
 
 .NET Framework ist ein Monolith.
@@ -16,7 +14,7 @@ Es ermöglichte die Entwicklung von Desktop & Webanwendungen.
 2019 wurde die letzte Version (.NET Framework 4.8) veröffentlicht.
 
 
-# .NET (Core)
+## .NET (Core)
 
 .NET Core wurde 2016 veröffentlicht
 
@@ -25,19 +23,19 @@ Es ist OpenSource & Plattformunabhängig und kann auf Windows, Linux und macOS a
 Ab 2020 entfällt der Zusatz **Core**
 
 
-# .NET Standard
+## .NET Standard
 
 .NET Standard ist eine Mitte 2016 eingeführte Spezifikation für eine Funktionsumfang der .NET-Klassenbibliothek, die von verschiedenen .NET-Varianten implementiert werden kann.
 
 Es erlaubt die Verwendung von Klassenbibliothek sowohl in .NET Core als auch in .NET Framework Anwendungen.
 
 
-# .NET - Der Aufbau
+## .NET - Der Aufbau
 
 <img src="../images/0010-framework.png" alt="Framework" height="500rem" />
 
 
-# .NET - Die Sprachen
+## .NET - Die Sprachen
 
 .NET unterstüzt die folgenden Programmiersprachen:
 
@@ -47,7 +45,7 @@ Es erlaubt die Verwendung von Klassenbibliothek sowohl in .NET Core als auch in 
 * C++ (Windows)
 
 
-# C#
+## C#
 
 Standartisierte Sprache bei der ECMA
 
@@ -58,18 +56,19 @@ Entwurfen von Anders Hejlsberg für Microsoft
 Die Sprache ist plattformunabhängig
 
 
-# Xamarin
+## Xamarin
 
 Xamarin ist eine Plattform zur Entwicklung von mobilen Anwendungen für iOS, Android und Windows.
 
 <img src="../images/0010-xamarin.png" alt="Xamarin" height="400rem" />
 
 
-# Blazor
+## Blazor
 
 Open-Source Webframework, welches auf .NET basiert und die Entwicklung mit C# und HTML erlaubt.
 
-## Implementierungen
+
+### Implementierungen
 
 - **Blazor Server** Server Side Rendering von Razor Pages
 - **Blazor WebAssembly** Single Page Application (SPA) in WebAssembly

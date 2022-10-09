@@ -3,8 +3,6 @@
 # 🔧 🪚
 
 
-# Das SDK & Runtime
-
 ## Runtime
 
 Die **Runtime** ist in der Lage, die Anwendung zu starten und zu stoppen, sowie die Anwendung mit den Framework Bibliotheken zu verbinden.
@@ -15,7 +13,7 @@ Die **Runtime** ist in der Lage, die Anwendung zu starten und zu stoppen, sowie 
 
 
 <!-- .slide: class="two-floating-elements" -->
-# Die CLI
+## Die CLI
 
 * Ist ist eine plattformübergreifende Toolkette zum Entwicklung, Erstellen, Ausführen und Veröffentlichen von .NET-Anwendungen.
 
@@ -24,14 +22,14 @@ Die **Runtime** ist in der Lage, die Anwendung zu starten und zu stoppen, sowie 
 <img src="../images/0020-cli.png" alt="VSCode" height="200rem" />
 
 
-# Die IDE
+## Die IDE
 
 💡 IDE = integrierte Entwicklungsumgebung 💡
 
 > Eine **IDE** ist eine Software für die Anwendungsentwicklung, die gängige Entwicklertools in einer zentralen grafischen Oberfläche vereint.
 
 
-# NuGet
+## NuGet
 
 **NuGet** ist ein Paketmanager für .NET. Er ermöglicht das Verwalten von Bibliotheken und Abhängigkeiten.
 
@@ -40,26 +38,21 @@ Ein NuGet-Paket ist eine einzelne ZIP-Datei mit der Erweiterung .nupkg, die komp
 NuGets können von der öffentlichen NuGet Gallery oder von einem privaten NuGet-Feed heruntergeladen werden.
 
 
-# NuGet - Der Flow
+## NuGet - Der Flow
 
 <img src="../images/0020-nuget.png" alt="NuGet" height="300rem" />
 
 
-# Visual Studio Code
+## Visual Studio Code
 
 <img src="../images/0020-vscode.png" alt="VSCode" height="500rem" />
 
 
-# Visual Studio 2022
+## Visual Studio 2022
 
 <img src="../images/0020-vs2022.png" alt="VS2022" height="500rem" />
 
 
-# JetBrains Rider
+## JetBrains Rider
 
 <img src="../images/0020-rider.png" alt="Rider" height="500rem" />
-
-
-# 👨‍🏫 Demo
-
-Wir erstellen unsere erste Anwendung

@@ -3,7 +3,7 @@
 > Ein Typ definiert die Blaupause für einen Wert.
 
 
-# Der Code 
+## Der Code 
 
 ```csharp
 using System;
@@ -13,7 +13,7 @@ Console.WriteLine (x);
 ```
 
 
-# Variable & Konstante - In a nutshell
+## Variable & Konstante - In a nutshell
 
 Eine **Variable** zeigt einen Speicherort an, der mit der Zeit unterschiedliche Werte annehmen kann.
 
@@ -22,14 +22,14 @@ Eine **Konstante** ist ein Wert, der sich nicht ändern kann.
 Eine **Konstante** und **Variable** ist während der Laufzeit des Programms verfügbar.
 
 
-# Vordefinierte Typen
+## Vordefinierte Typen
 
 Vordefinierte Typen, sind solche, die besonders vom Compiler unterstützt werden.
 
 In C# sind vordefinierte Typen z.B.: `int`, `double`, `string`, `bool`.
 
 
-# Vordefinierte Typen - Beispiel
+## Vordefinierte Typen - Beispiel
 
 ```csharp
 string message = "Hallo Welt";
@@ -42,26 +42,26 @@ Console.WriteLine(message);
 ```
 
 
-# Benutzerdefinierte Typen
+## Benutzerdefinierte Typen
 
 Benutzerdefinierte Typen können mit Hilfe von Klassen und Strukturen definiert werden. 
 
 .NET hat eine Sammlung von benutzerdefinierter Typen (z.B. DateTime).
 
 
-# 👨‍🏫 Demo
+## 👨‍🏫 Demo
 
 Wir erstellen und benutzen einen benutzerdefinierten Typ.
 
 
-# Member eines Typs
+## Member eines Typs
 
 Ein Typ enthält **Daten-Member** und **Funktions-Member**
 
 In unserem Beispiel ist **ratio** ein Daten-Member und **Convert** bzw. der **Konstruktor** ein Funktions-Member.
 
 
-# Konstruktoren und Instanziierung
+## Konstruktoren und Instanziierung
 
 Daten werden erstellt, indem ein Typ instanziiert wird.
 
@@ -76,14 +76,14 @@ Der **new**-Operator erstellt Instanzen von benutzerdefinierten Typen.
 Unmittelbar nachdem der **new**-Operator ein Objekt instanziiert hat, wird der **Konstruktor** des Objekts aufgerufen, um die Initialisierung durchzuführen
 
 
-# Instanz-Member
+## Instanz-Member
 
 Die Member (Daten und Funktion), die mit der Instanz des Typs arbeiten, werden als **Instanz-Member** bezeichnet.
 
 Die Methode `Convert` von UnitConverter und die Methode `ToString` von int sind Beispiele für solche Instanz-Member.
 
 
-# Statische Member
+## Statische Member
 
 Member, die nicht mit der Instanz des Typs arbeiten, können als `static` gekennzeichnet werden.
 
@@ -94,12 +94,12 @@ Console.WriteLine("Hallo Welt");
 ```
 
 
-# 👨‍🏫 Demo
+## 👨‍🏫 Demo
 
 Wir erstellen statische Member und arbeiten damit.
 
 
-# public und namespace
+## public und namespace
 
 Das Schlüsselwort **public** macht Member für andere Klassen zugänglich.
 
@@ -114,7 +114,7 @@ namespace Animals {
 ```
 
 
-# Typen und Umwandlungen
+## Typen und Umwandlungen
 
 C# kann Instanzen kompatibler Typen umwandeln.
 
@@ -129,7 +129,7 @@ short z = (short)x; // explizite Umwandlung in einen 16-Bit-int
 ```
 
 
-# Werttypen vs. Referenztypen
+## Werttypen vs. Referenztypen
 
 **Werttypen** enthalten die meisten eingebauten Typen, aber auch selbst definierte struct- und enum-Typen.
 
@@ -139,7 +139,7 @@ Der prinzipielle Unterschied zwischen Werttypen und Referenztypen ist ihre Behan
 
 
 <!-- .slide: class="two-floating-elements" -->
-# Werttypen
+## Werttypen
 
 * Der Inhalt einer Werttyp-Variablen oder -Konstanten ist einfach ein Wert.
 * Selbst definierten Werttyp können mithilfe des Schlüsselworts `struct` definiert werden.
@@ -154,7 +154,7 @@ Der prinzipielle Unterschied zwischen Werttypen und Referenztypen ist ihre Behan
 <img src="../images/0030-struct-werttyp.png" alt="VSCode" height="200rem" />
 
 
-# Referenztypen
+## Referenztypen
 
 Besteht aus zwei Teilen: einem **Objekt** und der **Referenz** auf dieses Objekt.
 
@@ -165,19 +165,19 @@ public class Point { public int X, Y; }
 <img src="../images/0030-referenztyp.png" alt="VSCode" height="200rem" />
 
 
-# Referenztypen
+## Referenztypen
 
 Durch das Zuweisen einer Referenztyp-Variablen wird die Referenz kopiert, nicht die Objektinstanz
 
 Damit ist es möglich, mit mehreren Variablen auf dasselbe Objekt zu verweisen.
 
 
-# 👨‍🏫 Demo
+## 👨‍🏫 Demo
 
 Werttypen und Referenztypen im Vergleich
 
 
-# Null
+## Null
 
 Einer Referenz kann das Literal **null** zugewiesen werden, wodurch ausgesagt wird, dass die Referenz auf kein Objekt zeigt.
 
@@ -195,7 +195,8 @@ Console.WriteLine(p.X); // NullReferenceException
 Standardmäßig kann einem **Werttyp** kein **null** zugewiesen werden.
 
 
-# Vordefinierte Typen
+## Vordefinierte Typen
+
 
 ### Werttypen
 
@@ -207,15 +208,13 @@ Standardmäßig kann einem **Werttyp** kein **null** zugewiesen werden.
 * Zeichen (char)
 
 
-# Vordefinierte Typen
-
 ### Referenztypen
 
 * String (string) 
 * Objekt (object)
 
 
-# Numerische Suffixe
+## Numerische Suffixe
 
 Die **numerischen Suffixe** definieren den Typ eines Literals:
 
@@ -227,12 +226,12 @@ decimal d = 4.5M; // kompiliert ohne Suffix nicht
 ```
 
 
-# Arithmetische Operatoren
+## Arithmetische Operatoren
 
 Die arithmetischen Operatoren (+, -, *, /, %) sind für alle numerischen Typen definiert. Der %-Operator wird zum Rest nach der Division ausgewertet.
 
 
-# Inkrement- und Dekrementoperatoren
+## Inkrement- und Dekrementoperatoren
 
 Die Inkrement- und Dekrementoperatoren (++, -–) erhöhen bzw. verringern numerische Typen um eins. 
 
@@ -246,7 +245,8 @@ Console.WriteLine(--x); // Ausgabe 1; x ist jetzt 1
 ```
 
 
-# Besondere integrale Operationen
+## Besondere integrale Operationen
+
 
 ### Division
 
@@ -269,7 +269,7 @@ Console.WriteLine(a == int.MaxValue); // True
 ```
 
 
-# bool
+## bool
 
 Der C#-Typ bool ist ein logischer Wert, dem eines der Literale **true** und **false** zugewiesen werden kann.
 
@@ -284,7 +284,7 @@ Console.WriteLine(x == z); // True
 Bei **Referenztypen** basiert die Gleichheit standardmäßig auf der Referenz und nicht auf dem eigentlichen Wert des zugrunde liegenden Objekts.
 
 
-# Bedingungsoperatoren
+## Bedingungsoperatoren
 
 Die Operatoren **&&** und **||** testen auf die Bedingungen **und** bzw. **oder**.
 
@@ -298,7 +298,7 @@ static bool UseUmbrella (bool rainy, bool sunny, bool windy)
 ```
 
 
-# Strings und Zeichen
+## Strings und Zeichen
 
 Der C#-Typ char repräsentiert ein Unicode-Zeichen und nimmt zwei Bytes ein.
 ```csharp
@@ -313,7 +313,7 @@ string a = "Heat";
 > **string** ist ein Referenztyp, kein Werttyp. Seine Vergleichsoperatoren folgen jedoch der Werttyp-Semantik.
 
 
-# String-Verkettung
+## String-Verkettung
 
 Der **+** Operator verkettet zwei Strings:
 ```csharp
@@ -326,7 +326,7 @@ string s = "a" + 5; //a5
 ```
 
 
-# String-Interpolation
+## String-Interpolation
 
 Ein String, dem ein **$** vorangestellt ist, wird als interpolierter String bezeichnet.
 
@@ -338,7 +338,7 @@ Console.Write($"Ein Quadrat hat {x} Seiten"); // Gibt aus: Ein Quadrat hat 4 Sei
 ```
 
 
-# Strings verändern
+## Strings verändern
 
 Da string nicht veränderbar ist, liefern alle Methoden, die einen String »bearbeiten«, einen neuen zurück und lassen das Original unangetastet:
 
