@@ -299,6 +299,11 @@ static bool UseUmbrella (bool rainy, bool sunny, bool windy)
 ```
 
 
+## 👨‍🏫 Demo
+
+Arbeiten mit Arithmetische Operatoren, Operationen und Bedinungsoperatoren.
+
+
 ## Strings und Zeichen
 
 Der C#-Typ char repräsentiert ein Unicode-Zeichen und nimmt zwei Bytes ein.
@@ -350,3 +355,13 @@ Da string nicht veränderbar ist, liefern alle Methoden, die einen String »bear
 * `ToUpper` und `ToLower` wandeln den String in Groß- bzw. Kleinschreibung um.
 * `Split` teilt den String anhand eines Trennzeichens in mehrere Strings auf.
 * `Join` verknüpft mehrere Strings zu einem einzigen String.
+
+
+## 👨‍🏫 Demo
+
+Arbeiten mit Strings und Interpolation.
+
+
+## 🏋️‍♀️ Übung
+
+<a href="https://github.com/roeb/Training-C-Sharp/030_types/" target="_blank">Typgrundlagen erlernen</a>
