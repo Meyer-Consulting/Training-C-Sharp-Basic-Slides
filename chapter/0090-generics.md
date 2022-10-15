@@ -41,7 +41,7 @@ int y = stack.Pop();
 `Stack<int>` gibt für den Typparameter `T` das Typargument `int` vor, wodurch implizit ein Typ erstellt wird.
 
 ```csharp
-public class ### {
+public class Stack<int> {
     int position;
     int[] data = new int[100];
 

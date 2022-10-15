@@ -34,6 +34,10 @@ Vererbung in der Praxis
 
 ## Polymorphie
 
+Polymorphie bedeutet **Vielgestaltigkeit**
+
+Basisklassen mit virutellen Methoden, können von abgeleiteten Klassen überschrieben werden. 
+
 Referenzen sind **polymorph**.
 
 Das bedeutet, dass eine Variable des Typs **x** auf Instanzen von Typen verweisen kann, die Subklassen von **x** sind.
@@ -160,7 +164,7 @@ public class House : Asset {
 }
 ```
 
-Der Modifikator `sealed`kann auch selbst auf die Klasse angewandt werden, um das Erstellen von abgeleiteten Klassen zu verhindern.
+Der Modifikator `sealed` kann auch selbst auf die Klasse angewandt werden, um das Erstellen von abgeleiteten Klassen zu verhindern.
 
 
 ## Das Schlüsselwort `base`
@@ -229,11 +233,6 @@ int y = (int)obj; // int auspacken
 ```
 
 Unboxing erfordert einen **expliziten** Cast.
-
-
-# 👨‍🏫 Demo
-
-Object in der Praxis mit einen LIFO Stack
 
 
 ### GetType-Methode und der typeof-Operator

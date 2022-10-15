@@ -12,6 +12,11 @@ Es ermöglichte die Entwicklung von Desktop & Webanwendungen.
 2019 wurde die letzte Version (.NET Framework 4.8) veröffentlicht.
 
 
+## Common Language Runtime
+
+<img src="../images/0015-runtime.png" alt="Framework" height="500rem" />
+
+
 ## .NET (Core)
 
 .NET Core wurde 2016 veröffentlicht
