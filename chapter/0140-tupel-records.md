@@ -130,3 +130,8 @@ record Point (double X, double Y) {
         other != null && X == other.X && Y == other.Y;
 }
 ```
+
+
+## 🏋️‍♀️ Übung
+
+<a href="https://github.com/roeb/Training-C-Sharp/140-tupel-records/" target="_blank">Extension Methods, Anonyme Typen, Tupel und Records</a>

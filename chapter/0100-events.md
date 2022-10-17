@@ -79,3 +79,8 @@ public static void bl_ProcessCompleted()
 Es wird eine neue Instanz von `ProcessBusinessLogic` erstellt und der Event-Handler `bl_ProcessCompleted` wird dem Event `ProcessCompleted` hinzugefügt.
 
 `bl_ProcessCompleted` enthält die Logic um das Event zu verarbeiten.
+
+
+## 🏋️‍♀️ Übung
+
+<a href="https://github.com/roeb/Training-C-Sharp/100-events/" target="_blank">Delegates & Events gemeinsam einsetzen</a>

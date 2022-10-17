@@ -112,3 +112,8 @@ Der folgende Code sorgt ebenfalls für eine Warnung, weil `x` nicht initialisier
 ```csharp
 class Foo { string x; }
 ```
+
+
+## 🏋️‍♀️ Übung
+
+<a href="https://github.com/roeb/Training-C-Sharp/125-nullable/" target="_blank">Enumerations & Nullable verstehen</a>

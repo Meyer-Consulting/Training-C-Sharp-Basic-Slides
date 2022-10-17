@@ -64,3 +64,8 @@ class ClassB { internal int x; }
 ```csharp
 [assembly: InternalsVisibleTo("Friend")]
 ```
+
+
+## 🏋️‍♀️ Übung
+
+<a href="https://github.com/roeb/Training-C-Sharp/075-access-modifier/" target="_blank">Zugriffsmodifikatoren, Structs & Vererbung</a>

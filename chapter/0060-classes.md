@@ -335,3 +335,8 @@ partial class PaymentForm { ... }
 ```
 
 Jeder Teil muss die Deklaration `partial` einschließen.
+
+
+## 🏋️‍♀️ Übung
+
+<a href="https://github.com/roeb/Training-C-Sharp/060-classes/" target="_blank">Klassen & Namespaces anwenden</a>

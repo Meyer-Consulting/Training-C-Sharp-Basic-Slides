@@ -206,3 +206,8 @@ public void IncreaseValue(int newValue) {
     }
 }
 ```
+
+
+## 🏋️‍♀️ Übung
+
+<a href="https://github.com/roeb/Training-C-Sharp/115-try-catch-exceptions/" target="_blank">Lambdas und Fehlerbehandlung</a>

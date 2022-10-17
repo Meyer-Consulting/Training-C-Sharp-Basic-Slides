@@ -77,3 +77,8 @@ public struct Note {
     public override int GetHashCode() => value.GetHashCode();
 }
 ```
+
+
+## 🏋️‍♀️ Übung
+
+<a href="https://github.com/roeb/Training-C-Sharp/160-member-overloading/" target="_blank">Dynamic Binding und Operatoren überladen</a>

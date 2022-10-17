@@ -248,3 +248,8 @@ static decimal AsPercentage (decimal d) {
 # 👨‍🏫 Demo
 
 Iterationen und Sprunganweisungen verstehen
+
+
+## 🏋️‍♀️ Übung
+
+<a href="https://github.com/roeb/Training-C-Sharp/050-<span translate="no">&nbsp;statements&nbsp;</span>/" target="_blank">Mit <span translate="no">&nbsp;Statements&nbsp;</span>, Arrays und Variablen arbeiten</a>

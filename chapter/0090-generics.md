@@ -137,3 +137,8 @@ class GenericClass<T,U> where T : SomeClass, Interface1
 ```
 
 Constraints können überall dort angewendet werden, wo generische Parameter definiert sind, sowohl in Methoden als auch in Typdefinitionen.
+
+
+## 🏋️‍♀️ Übung
+
+<a href="https://github.com/roeb/Training-C-Sharp/090-generics/" target="_blank">Mit Interfaces, Enaums und Generics flexibler entwickeln</a>

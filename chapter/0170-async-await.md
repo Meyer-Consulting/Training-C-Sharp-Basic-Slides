@@ -176,3 +176,7 @@ async void ButtonHandler (object sender, EventArgs args) {
 };
 ```
 
+
+## 🏋️‍♀️ Übung
+
+<a href="https://github.com/roeb/Training-C-Sharp/170-async-await/" target="_blank">Async/Await einbinden und mit Attributen arbeiten</a>
