@@ -147,6 +147,78 @@ float z = (float)Math.PI;
 ```
 
 
-## AUSDRÜCKE
+## Mit dem Ziel typisierte new-Ausdrücke
 
-TBD!
+Eine Möglichkeit, Wiederholungen im Code zu vermeiden, ist der Einsatz von mit dem Ziel typisierten new-Ausdrücken
+
+```csharp
+StringBuilder sb1 = new(); 
+StringBuilder sb2 = new ("Test");
+
+// entspricht
+
+StringBuilder sb1 = new StringBuilder(); 
+StringBuilder sb2 = new StringBuilder ("Test");
+```
+
+
+## Ausdrücke und Operatoren
+
+Ein **Ausdruck** entspricht prinzipiell einem Wert.
+
+Ausdrücke können mithilfe von Operatoren umgewandelt und kombiniert werden.
+
+Ein **Operator** erwartet einen oder mehrere Operanden als Eingabe, um einen neuen **Ausdruck** auszugeben.
+
+```csharp
+12 * 30 // * ist ein Operator; 12 und 30 sind Operanden.
+```
+
+
+## Zuweisungsausdrücke
+
+Ein Zuweisungsausdruck nutzt den Operator `=, um einer Variablen das Ergebnis eines anderen Ausdrucks zuzuweisen.
+
+Ein Zuweisungsausdruck ist kein `void`-Ausdruck.
+
+```csharp
+x = x * 5
+```
+
+
+Die **zusammengesetzten Zuweisungsoperatoren** sind syntaktische Abkürzungen, die eine Zuweisung mit einem anderen Operator kombinieren:
+
+```csharp
+x *= 2 // entspricht x = x * 2 
+x -= 1 // entspricht x = x - 1
+```
+
+
+## Priorität und Assoziativität von Operatoren
+
+Wenn ein **Ausdruck** mehrere Operatoren enthält, bestimmen **Priorität** und **Assoziativität** die Auswertungsreihenfolge.
+
+Operatoren mit einer höheren Priorität werden vor Operatoren mit einer niedrigeren Priorität ausgeführt. 
+
+
+### Priorität
+
+Der Ausdruck `1 + 2 * 3` wird als `1 + (2 * 3)` ausgewertet, weil `*` eine höhere Priorität hat als `+`.
+
+
+### Linksassoziative Operatoren
+
+Binäre Operatoren sind linksassoziativ.
+
+Sie werden von links nach rechts ausgewertet.
+
+Beispielsweise wird der Ausdruck `8/4/2` aufgrund der Linksassozia- tivität als `(8/4)/2` ausgewertet.
+
+
+### Rechtsassoziative Operatoren
+
+Die Zuweisungs- und Lambda-Operatoren, der Null-Verbindungsoperator sind rechtsassoziativ. 
+
+Sie werden von rechts nach links ausgewertet.
+
+Die Rechtsassoziativität ermöglicht die Kompilation von Mehrfachzuweisungen wie x=y=3: Das funktioniert, weil erst y 3 zugewiesen wird und dann das Ergebnis dieses Ausdrucks (3) x.
