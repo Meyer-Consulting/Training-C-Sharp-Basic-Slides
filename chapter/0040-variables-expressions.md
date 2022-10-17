@@ -221,4 +221,4 @@ Die Zuweisungs- und Lambda-Operatoren, der Null-Verbindungsoperator sind rechtsa
 
 Sie werden von rechts nach links ausgewertet.
 
-Die Rechtsassoziativität ermöglicht die Kompilation von Mehrfachzuweisungen wie x=y=3: Das funktioniert, weil erst y 3 zugewiesen wird und dann das Ergebnis dieses Ausdrucks (3) x.
+Die Rechtsassoziativität ermöglicht die Kompilation von Mehrfachzuweisungen wie `x=y=3`: Das funktioniert, weil erst y 3 zugewiesen wird und dann das Ergebnis dieses Ausdrucks (3) x.
