@@ -1,4 +1,4 @@
-# ADO.NET - Datenbankzuguriff
+# ADO.NET - Datenbankzugriff
 
 
 ADO.NET stellt Zugriff auf Datenquellen wie SQL Server bereit, die durch OLE DB und ODBC verfügbar gemacht werden.

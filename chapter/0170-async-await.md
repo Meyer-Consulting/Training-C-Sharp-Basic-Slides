@@ -177,6 +177,47 @@ async void ButtonHandler (object sender, EventArgs args) {
 ```
 
 
+### Magie mit Threads
+
+Ein **Thread** ist ein Strang in dem Anweisungen ausgeführt werden. 
+
+Die meisten UI Technologien besitzen einen UI-Thread.
+
+Werden nun asynchrone Funktionen im UI Thread awaitet, kann es passieren das im UI zu einem "freeze" oder Deadlock kommen kann.
+
+
+### ConfigureAwait
+
+Die Methode `.ConfigureAwait(false)` konfiguriert einen Task so, das dessen Folgetask nicht auf dem Thread des Synchronization-Kontextes ausgeführt wird.
+
+Dies kann Deadlocks verhindern und die Ausführung unserer Anwendung effizienter machen.
+
+```csharp
+public async Task<int> ConfigureExample()
+{
+   // wir starten eine asynchrone Ausführung. Wenn wir vom UI
+   // aufgerufen wurden, geschieht der Start der Operation
+   // noch auf dem UI-Thread
+   var someData = await LoadDataAsync().ConfigureAwait(false);
+
+   // Der folgende Code wird NICHT auf dem UI-Thread
+   // ausgeführt und blockiert damit das UI nicht
+   var number = DoLongRunningMaths(someData);
+
+   return number;
+}
+```
+
+
+#### Wo wird ConfigureAwait benötigt?
+
+- WinForms Anwendungen
+- WPF Anwendungen
+- ASP.NET WebForms, MVC oder WebApi (**nicht bei ASP.NET Core***)
+- Blazor
+- Bibliotheken, die von den gelisteten Anwendungstypen verwendet werden können oder sollen.
+
+
 ## 🏋️‍♀️ Übung
 
 <a href="https://github.com/roeb/Training-C-Sharp/170-async-await/" target="_blank">Async/Await einbinden und mit Attributen arbeiten</a>
